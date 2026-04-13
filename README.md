@@ -37,6 +37,9 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
+Add a `.env` file:
+GROQ_API_KEY=your-key-here
+
 Ingest a document:
 ```bash
 python -m app.ingest
