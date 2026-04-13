@@ -1,0 +1,103 @@
+{
+  "overall_score": 0.8854166666666667,
+  "results": [
+    {
+      "question": "How many days of sick leave do employees get?",
+      "answer": "According to the context, Employees receive 10 days of paid sick leave per year. Sick leave does not accrue and resets on January 1st each year.",
+      "score": 1.0,
+      "status": "PASS",
+      "matched": [
+        "10"
+      ],
+      "missed": []
+    },
+    {
+      "question": "What is the parental leave policy for primary caregivers?",
+      "answer": "Primary caregivers are entitled to 16 weeks of fully paid parental leave.",
+      "score": 1.0,
+      "status": "PASS",
+      "matched": [
+        "16 weeks",
+        "primary",
+        "paid"
+      ],
+      "missed": []
+    },
+    {
+      "question": "How much is the annual learning and development budget?",
+      "answer": "The annual learning and development budget is $1,500 per employee.",
+      "score": 1.0,
+      "status": "PASS",
+      "matched": [
+        "1,500",
+        "learning",
+        "development"
+      ],
+      "missed": []
+    },
+    {
+      "question": "How many days notice must an employee give when resigning?",
+      "answer": "An employee must give a minimum of 2 weeks written notice, unless they are Senior employees (Level 5 and above), in which case they must give 4 weeks' notice.",
+      "score": 1.0,
+      "status": "PASS",
+      "matched": [
+        "2 weeks",
+        "notice",
+        "written"
+      ],
+      "missed": []
+    },
+    {
+      "question": "What percentage of health insurance premium does the company cover?",
+      "answer": "The company covers 80% of the premium for employees and 60% for dependents.",
+      "score": 0.6666666666666666,
+      "status": "PASS",
+      "matched": [
+        "80%",
+        "premium"
+      ],
+      "missed": [
+        "health"
+      ]
+    },
+    {
+      "question": "How many days can employees carry over from annual leave?",
+      "answer": "According to the context, employees may carry over a maximum of 5 unused days into the following calendar year.",
+      "score": 0.6666666666666666,
+      "status": "PASS",
+      "matched": [
+        "5",
+        "carry over"
+      ],
+      "missed": [
+        "annual"
+      ]
+    },
+    {
+      "question": "What happens to sick leave at the end of the year?",
+      "answer": "According to section 2.2 Sick Leave, \"Sick leave does not accrue and resets on January 1st each year.\" This means that any unused sick leave at the end of the year will be forfeited and reset for the new calendar year.",
+      "score": 0.75,
+      "status": "PASS",
+      "matched": [
+        "resets",
+        "January",
+        "not"
+      ],
+      "missed": [
+        "carry"
+      ]
+    },
+    {
+      "question": "How long does the 401k company match vesting take?",
+      "answer": "The company matching contributions to the 401(k) plan vest immediately for employee contributions, but follow a 2-year cliff vesting schedule.",
+      "score": 1.0,
+      "status": "PASS",
+      "matched": [
+        "2-year",
+        "vesting",
+        "cliff"
+      ],
+      "missed": []
+    }
+  ]
+}
